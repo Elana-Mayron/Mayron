@@ -3,44 +3,44 @@ SITE GENERAL
 /////////////////////////////////*/
 
 ::selection {
-    background-color: var(--selection-color, rgba(0, 0, 0, 0.25));
+    background-color: var(--selection-color, rgba(0, 0, 0, 0.25)) !important;
 }
 
 html,
 body {
-    font-family: 'Chronicle Deck A', 'Chronicle Deck B', Georgia;
-    font-style: normal;
-    font-size: 0;
-    margin: 0;
-    padding: 0;
-    -webkit-font-smoothing: subpixel-antialiased;
-    max-width: 100%;
-    overflow-x: hidden;
-    position: relative;
-    color: #1b1b1b;
+    font-family: 'Chronicle Deck A', 'Chronicle Deck B', Georgia !important;
+    font-style: normal !important;
+    font-size: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    position: relative !important;
+    color: #1b1b1b !important;
 }
 
 body.t-body {
-    opacity: 0;
+    opacity: 0 !important;
 }
 
 body.transitioning {
-    pointer-events: none;
+    pointer-events: none !important;
 }
 
 a svg {
-    pointer-events: none;
+    pointer-events: none !important;
 }
 
 body {
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 h1,
 h2 {
-    font-family: 'Financier Display', Georgia, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 600;
+    font-family: 'Financier Display', Georgia, sans-serif !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-weight: 600 !important;
 }
 
 h6 {
@@ -49,7 +49,7 @@ h6 {
 }
 
 html {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
 }
 
 h1,
@@ -75,7 +75,7 @@ a:focus {
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box !important;
 }
 
 #ribbon {
