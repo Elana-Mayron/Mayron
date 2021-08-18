@@ -20,7 +20,7 @@ body {
     color: #1b1b1b;
 }
 
-body.fonts-loading {
+body.t-body {
     opacity: 0;
 }
 
